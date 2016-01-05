@@ -1,0 +1,4 @@
+---
+# tasks file for uwsgi
+- name: Install uwsgi
+  apt: "name='uwsgi' state=present force=yes"
