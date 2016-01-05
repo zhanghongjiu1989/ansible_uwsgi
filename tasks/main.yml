@@ -1,4 +1,10 @@
 ---
 # tasks file for uwsgi
-- name: Install uwsgi
-  apt: "name='uwsgi' state=present force=yes"
+- name: Install python-dev
+  apt: "name='python-dev' state=present force=yes"
+
+- name: Install python-pip
+  apt: "name='python-pip' state=present force=yes"
+
+- name: install uwsgi
+  pip: name=uwsgi
