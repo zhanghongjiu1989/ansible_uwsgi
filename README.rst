@@ -6,10 +6,10 @@ uwsgi
 Example Playbook
 -------------------------
 
-    - hosts: servers
+    - hosts: all
       remote_user: root
       roles:
-         - { role: micropyramid.uwsgi }
+         - { role: zhanghongjiu1989.uwsgi }
 
 License
 -------
