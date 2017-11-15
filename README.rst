@@ -5,10 +5,9 @@ uwsgi
 
 Example Playbook
 -------------------------
-
-    - hosts: all
-      remote_user: root
-      roles:
+- hosts: all
+  remote_user: root
+  roles:
          - { role: zhanghongjiu1989.uwsgi }
 
 License
